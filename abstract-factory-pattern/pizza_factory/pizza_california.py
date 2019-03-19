@@ -4,6 +4,7 @@ class PizzaCalifornia(PizzaAdapter):
     """ Pizza Californa Class """
 
     def doPizza(self):
+        self._Pizza = 'California'
         print("Doing Pizza California") 
 
     def __str__(self):

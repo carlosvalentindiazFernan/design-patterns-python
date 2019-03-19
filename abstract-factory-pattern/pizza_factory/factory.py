@@ -27,7 +27,7 @@ class PizzaFactory:
         elif pizza == Pizza.PEPPERONI:
             return PizzaPepperoni()
         else:
-            raise Exception('Invalid DBA')
+            raise Exception('Invalid Pizza')
 
 
     def __str__(self):
