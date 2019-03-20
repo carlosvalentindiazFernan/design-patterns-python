@@ -2,7 +2,10 @@ from abc import abstractmethod,ABCMeta
 
 class PizzaAdapter(metaclass=ABCMeta):
     """ Pizza Adapter abstra class """
+
     _Pizza = ""
+    _souce = ""
+    _toppings = []
 
     @abstractmethod
     def doPizza(self):
