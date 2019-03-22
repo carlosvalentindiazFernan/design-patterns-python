@@ -11,8 +11,6 @@ class PizzasStore(metaclass=Singleton):
         return 'Pizzas Store'
 
     
-
-
 def main():
     store = PizzasStore()
     store2 = PizzasStore()
