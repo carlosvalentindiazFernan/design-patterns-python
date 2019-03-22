@@ -19,10 +19,3 @@ class PizzaStoreFactory:
             return TexasStore()        
         else:
             raise Exception('Pizza Store Invalid')
-
-
-
-        """ Generate Order from  Order"""
-"""
-
-"""
