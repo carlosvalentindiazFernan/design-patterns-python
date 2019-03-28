@@ -7,3 +7,4 @@
     - Abstract Factory Pattern
     - Singleton Design Pattern
     - Prototype Pattern
+    - Builder Pattern
