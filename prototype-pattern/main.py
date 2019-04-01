@@ -3,10 +3,9 @@ from share_cache import ShareCache
 
 def main():
 
-    """
-    Value 1 => get Circle
-    Value 2 => get Rectangle
-
+    """    
+        Value 1 => get Circle
+        Value 2 => get Rectangle
     """
 
     ShareCache.inizialize()
