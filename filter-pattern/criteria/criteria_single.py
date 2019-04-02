@@ -6,8 +6,8 @@ class CriteriaSingle:
         personsFemale  = []
 
         for index, person in enumerate(persons):
-            if person.maritalStatus == 'SINGLE':
-                personsFemale[index] = person
+            if person.maritalStatus.upper() == 'SINGLE':
+                personsFemale.append(person)
         
         return personsFemale
 

@@ -10,5 +10,5 @@ class AndCriteria(Criteria):
 
     def meetCriteria(self,persons):
         firstCriteriaPersons = self.__criteria.meetCriteria(persons)
-        return self.__oldCriteria.meetCriteria(firstCriteriaPersons);
+        return self.__oldCriteria.meetCriteria(firstCriteriaPersons)
     

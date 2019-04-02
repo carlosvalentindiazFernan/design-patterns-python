@@ -9,7 +9,7 @@ class CriteriaMale(Criteria):
 
         for index, person in enumerate(persons):
             if person.gender.upper() == 'MALE':
-                personMale[index] = person
+                personMale.append(person)
         
         return personMale
 
